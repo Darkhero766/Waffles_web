@@ -1,1 +1,143 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right , #0f2027, #203a43,#2c5364) ;
+    color : #fff;
+    text-align: centre;
 
+
+}
+
+header{
+    background-color: #000000a0;
+    padding: 20px;
+    border-bottom: 2px solid #444;
+    
+}
+
+nav a{
+    color: #7ddfff;
+    margin: 0px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero-img{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px #ffffff55;
+
+}
+
+.glow{
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+button{
+    margin: 15px;
+    padding: 10px 20px;
+    background: #00c3ff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+
+
+}
+
+button:hover{
+    transform: scale(1.05) ;
+    background: #0ff
+}
+
+#fact-box{
+    margin-top: 15px;
+    font-style: italic;
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+
+
+}
+
+.card{
+    background: #1c1c2e;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 15px #00ffff33;
+    transition: transform 0.3s;
+
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 0 20px #00ffff44;
+
+}
+
+form input[type="text"]{
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    background: #111;
+    color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #00ffff55 inset;
+    
+
+}
+
+form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #0ff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+form Button:hover{
+    background: #7df9ff;
+    transform: scale(1.05)
+}
+
+#livePreview, #submitMessage{
+    margin-top: 10px;
+    font-style: italic;
+    color: #fffa;
+    font-size: 1.1rem;
+
+}
