@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stellar Wonders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ <body>
+        <header>
+            <h1>🌠 Welcome to Stellar Wonders</h1>
+            <nav>
+              <a href="index.html">Home</a>
+              <a href="galaxy.html">Explore</a>
+            </nav>
+        </header>   
+        <section class="hero">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/ESO_-_Milky_Way.jpg" alt="milky-way" class="hero-img">
+              <h2 class="glow">Eplore the Magic of cosmos</h2>
+              <p>From black holes to distant nebulas, Let's explorr it universe together</p>
+              <button onlcick="showFact()">✨ Show Me a Star Fact!</button>
+              <p id="fact-box"></p>
+
+              <hr>
+              <h2>Name your own star ⭐</h2>
+              <form id="starForm" onsubmit="return validateForm()">
+                <input type="text" id="starName" placeholder="Enter your name" oninput="updatePreview()"/>
+                <p id="livePreview">⭐ Live preview <em>...</em></p>
+                <button type="submit">Name it! </button>
+
+
+
+
+
+              </form>
+              <p id="submitMessage"></p>
+        </section>
+        <footer>
+          <p>🚀 Made with love in 2025</p>
+        </footer>
+        <scirpt src="script.js"></scirpt>
+</body>
+</html>
+
+                                                                               
 
