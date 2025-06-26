@@ -17,20 +17,34 @@
 
   <sectiom class="grid">
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400&h=300&fit=crop&auto=format" alt="Galaxy">
+      <img src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400&h=300" " alt="Galaxy">
       <h3>Hubble deep field</h3>
       <p>A look into thousands of ancient galaxy billions of light year away</p>
     </div>
 
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=300&fit=crop&auto=format" alt="Nebula">
+      <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&h=300&fit=crop&auto=format" " alt="Nebula">
       <h3>Carina Nebula</h3>
       <p>A stellar nursery shows colourful cloud forming stars</p>
+    </div>
+
+    <hr>
+    <h2>🪐Try the galaxy fun tool. </h2>
+    <button onclick="highlightCards()">⭐Higlights all card. </button>
+    <div style="margin-top: 20px;">
+      <input type="number" id="planetInput" placeholder="Enter planet count" oninput="checkPlanetCount()">
+      <p id="planetResponse"></p>
+    </div>
+
+    <div style="margin-top: 20px;">
+      <button onclick="generateRandomGalaxy()">🔀Random galaxy name</button>
+      <p id="randomGalaxy"></p>
     </div>
 
   </sectiom>
 
   <footer>♥️ Made with love in 2025</footer>
+  <script src="script.js"></script>
       
 </body>
 
